@@ -1,0 +1,230 @@
+@font-face{
+  font-family: gtrg;
+  src: url('../fonts/gtrg.ttf')
+}
+.reg {
+   float: left; 
+   margin-left: 10px;
+}
+#header-wrapper{
+  border-top: 2px solid #86c543;
+}
+#jumbo{
+  height: 400px;
+  background-image: url('../img/square_bg_2.png');
+  background-color: #86c543;
+  font-family: gtrg;
+}
+#jumbo-inner{
+  padding: 95px 0 0 0;
+}
+#jumbo h1{
+  display:inline-block;
+  font-family: gtrg;
+  font-weight: lighter;
+  border-bottom: 2px solid #ffffff;
+}
+.wrap-in{
+  display:inline-block;
+  border-bottom: 3px solid #ffffff;
+}
+#first h5, #sponsors h5, #last h5{
+  padding: 25px 0 0 0;
+  font-weight: lighter;
+  padding: 10px 0 25px 0;
+  font-family: gtrg;
+}
+#first ul li, #sponsors ul li{
+  text-align: center;
+}
+#first img{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+#sponsors{
+  padding: 25px 0 25px 0;
+  background-color: #f5f5f5;
+  background-color: rgb(245,245,245);
+}
+#last{
+  background: #ffffff;
+  padding: 25px 0 25px 0;
+}
+#last p{
+  text-align: justify;
+  font-size: .9em;
+}
+#previous-conference{
+  height: 155px;
+  border:2px solid #86c543;
+  text-align: center;
+}
+#previous-conference th{
+  width: 1000px;
+  text-align: center;
+}
+#previous-conference td{
+  padding: 11.75px;
+}
+#imp-dates{
+  margin-bottom: 5px;
+  height: 140px;
+  border:2px solid #86c543;
+  text-align: center;
+}
+#imp-dates th{
+  width: 1000px;
+  text-align: center;
+}
+#imp-dates td{
+  padding: 9px;
+}
+
+#footer-wrapper{
+  padding: 25px 0 25px 0;
+  background: #111111;
+}
+#footer-inner{
+}
+#footer-inner h6{
+  font-family: gtrg;
+  font-weight: lighter;
+  color: #ffffff;
+}
+#footer-inner p{
+  font-size: .9em;
+  color: #ffffff;
+}
+#footer-inner #social img{
+  margin: 15px 0 0 20px;
+}
+#social #fossee-logo{
+
+}
+#social #fossee-logo img{
+    width: 60%;
+    margin-left: 20%;
+    padding: 5px;
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+         -o-border-radius: 5px;
+            border-radius: 5px;
+}
+#credits{
+  padding: 15px 0 0 0;
+  border-top: 1px solid #000000;
+  color: #ffffff;
+}
+#credits .left{
+  padding-left: 0.9375em;
+}
+#credits .right{
+  padding-right: 0.9375em;
+}
+#credits a{
+  text-decoration: none;
+	color: #ffffff;
+}
+/* Page css */
+#page-jumbo{
+  height: 50px;
+  background-image: url('../img/square_bg_2.png');
+  background-color: #86c543;
+  font-family: gtrg;
+}
+#page-jumbo-inner{
+  padding: 25px 0 25px 0;
+}
+#content-wrapper{
+  min-height: 400px;
+  padding: 25px 0 25px 0;
+}
+#register{
+  border: 3px solid #86c543;
+}
+.sponsor{
+  height: 200px;
+  padding: 25px 25px 25px 25px;
+  margin: 25px 0 25px 0;
+  border: 3px solid #f5f5f5;
+}
+.sponsor p{
+  text-align: justify;
+}
+.speaker{
+  height: 190px;
+  padding: 25px 25px 25px 25px;
+  margin: 25px 0 25px 0;
+  border: 3px solid #f5f5f5;
+  
+}
+.speaker img{
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+}
+.speaker p{
+  font-size: 0.9em;
+}
+#reach-scipy{
+  height: 400px;
+  padding: 5px 0.9375em;
+  margin-bottom: 25px;
+}
+#reach-scipy .side-nav{
+  height: 400px;
+  background: #f5f5f5;
+  padding: 25px;
+}
+#reach-scipy #fare{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding:5px;
+  height: 150px;
+  margin-top: 15px;
+  font-size: .8em;
+  background: #ffffff;
+  text-align: justify;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+       -o-border-radius: 5px;
+          border-radius: 5px;
+}
+#reach-scipy #map{
+  height: 400px;
+  padding: 0;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+}
+#map-loader{
+    display: block;
+    margin: 25% auto 0;
+}
+#mappy{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* for list of abstracts */
+#abstract{
+    background-color:#F0F8FF;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    min-width: 805px;
+    padding: 10px;
+    text-align: justify;
+}
+.comment {
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    background: #f5f5f5;
+    border-left: 2px solid #86c543;   
+}
